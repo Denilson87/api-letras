@@ -1,0 +1,24 @@
+.conteudo{
+   padding: 30px;
+}
+.teste{
+
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: aqua;
+  
+}
+
+.justify-content-center{
+   
+    margin-top: -20px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: aqua;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.justify-content-center:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }

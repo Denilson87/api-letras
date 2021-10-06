@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>letras</title>
+</head>
+
+<body>
+    <div class="conatiner">
+        <div class="conteudo">
+            <h1>Pesquise por letras Musicais</h1>
+            <p>Usando async await pesquisando dados de uma API <i class="fas fa-cloud"></i> </p>
+            <p>Exemplo de musicas disponiveis na api: <strong>Artista</strong> xuxa, <strong>Titulo:</strong> lua de cristal <i class="fas fa-music"></i></p>
+        </div>
+        <div class="justify-content-center">
+         <form id="lyrics_form">
+            <div class="form-row">
+                <div class="form_group col-md-6">
+                    <label for="artist"><strong>Artista <i class="far fa-user"></i></strong></label>
+                    <input type="text" class="form-control" name="artist"  id="artist" placeholder="Nome do artista">
+                </div>
+                <div class="form_group col-md-6">
+                    <label for="titulo"><strong>Titulo da musica <i class="fas fa-headphones"></i></strong></label>
+                    <input type="text" class="form-control" name="song" id="song" placeholder="Titulo da musica">
+                </div>
+                <br>                
+            </div>
+            <button type="submit" class="btn btn-info">Vamos cantar</button>
+        </form>
+        </div>
+
+        <div class="teste">
+            <pre class="mt-5" id="lyrics"></pre>
+        </div>
+    </div>
+
+<!-- https://api.lyrics.ovh/v1/u2/one --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+     <script src="js/lyrics.js"></script>
+</body>
+
+</html>
