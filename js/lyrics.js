@@ -33,9 +33,8 @@ form.addEventListener('submit', el =>{
         ///.catch(err => {
           ///  lyrics_el.innerHTML = `opps! ${err}`;
         ///})
+        
         ///}
-
-
 //criando a funcao para fazer a submicao da nossa query
 //usando async await 
  async function doSubmit() {
